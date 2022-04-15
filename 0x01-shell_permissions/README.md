@@ -9,3 +9,4 @@ chmod u+x hello : execute file hello
 chmod +114 hello : add execution permission to the owner and the group owner 
 chmod +x hello: add execution permission to the owner, to the group owner andthe other users
 chmod 007 hello : sets the permissions to the fie hello as follow : no permsission to the owner and groupand all permissions for users
+chmod 753 hello : set the mode of the file hello
