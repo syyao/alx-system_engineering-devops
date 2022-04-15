@@ -4,3 +4,4 @@
 2- cd /root/ :change the working directory to the root directory.
 3- ls -l: display the current directory content in a long format.
 4- ls -la: display the current content directory in a long format including hidden files.
+5- ls -n -a : display current content directory in a long format with user group IDs numerically and hidden files
