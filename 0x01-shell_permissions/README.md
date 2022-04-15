@@ -4,3 +4,4 @@ su betty : switch to user betty
 whoiam : print the to the current user
 groups: prints all the groups of the current user part of
 sudo chown betty hello : changes the owner file hello to the user betty
+touch hello : create a empty file named hello
