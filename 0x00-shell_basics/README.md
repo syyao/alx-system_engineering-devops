@@ -10,3 +10,4 @@
 8- rm /tmp/my_first_directory/betty : remove the file betty to my_first_directory
 9- rm -r /tmp/my_fisrt_directory: remove the my_first_directory directory
 10- cd - : go to the previous directory
+11- ls -l -a . .. /root: list al files to the current directory and the parent current directory
