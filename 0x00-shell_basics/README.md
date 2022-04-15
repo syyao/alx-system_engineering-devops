@@ -3,3 +3,4 @@
 1- ls : display the content list of your current working directory.
 2- cd /root/ :change the working directory to the root directory.
 3- ls -l: display the current directory content in a long format.
+4- ls -la: display the current content directory in a long format including hidden files.
