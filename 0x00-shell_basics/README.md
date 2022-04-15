@@ -11,3 +11,4 @@
 9- rm -r /tmp/my_fisrt_directory: remove the my_first_directory directory
 10- cd - : go to the previous directory
 11- ls -l -a . .. /root: list al files to the current directory and the parent current directory
+12- file tmp/iamafile : prints the type of the file named iamafile
