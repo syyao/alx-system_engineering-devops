@@ -1,2 +1,2 @@
 # alx-system_engineering-devops
-Repository shell basics 0x00
+Repository for alx-system_engineering-devops
