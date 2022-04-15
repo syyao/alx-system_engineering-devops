@@ -9,3 +9,4 @@
 7- mv /tmp/betty /tmp/my_first_directory :move the betty file in my_fisrt_directory
 8- rm /tmp/my_first_directory/betty : remove the file betty to my_first_directory
 9- rm -r /tmp/my_fisrt_directory: remove the my_first_directory directory
+10- cd - : go to the previous directory
