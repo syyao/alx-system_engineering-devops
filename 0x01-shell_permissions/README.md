@@ -6,3 +6,4 @@ groups: prints all the groups of the current user part of
 sudo chown betty hello : changes the owner file hello to the user betty
 touch hello : create a empty file named hello
 chmod u+x hello : execute file hello
+chmod +114 hello : add permission to the owner and the group owner 
