@@ -13,3 +13,4 @@ chmod 753 hello : set the mode of the file hello
 chmod --reference= olleh hello : set the mode of the file hello the same as olleh'smode
 chomd -R ugo+X * : execute permissions to all subdirectories of the current directory for the owner , the group owner and all other users
 mkdir my_dir -m=751 : create a directory named my_dir with the 751 permissions
+chgrp school hello : change group owner to  school for the file hello 
