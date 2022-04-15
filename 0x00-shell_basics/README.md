@@ -13,3 +13,4 @@
 11- ls -l -a . .. /root: list al files to the current directory and the parent current directory
 12- file tmp/iamafile : prints the type of the file named iamafile
 13- ln -s /bin/ls ./__ls__ : create a symbolic link to /bin/ls named __ls__
+14- cp -u ./*.html ../ : copy all file with html extention from the current working directory to the parent directory
