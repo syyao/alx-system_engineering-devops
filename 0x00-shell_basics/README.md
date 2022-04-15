@@ -7,3 +7,4 @@
 5- ls -n -a : display current content directory in a long format with user group IDs numerically and hidden files
 6- mkdir /tmp/my_fisrt_directory : create a directory named my_first_directory in the folder tmp
 7- mv /tmp/betty /tmp/my_first_directory :move the betty file in my_fisrt_directory
+8- rm /tmp/my_first_directory/betty : remove the file betty to my_first_directory
