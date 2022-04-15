@@ -12,3 +12,4 @@
 10- cd - : go to the previous directory
 11- ls -l -a . .. /root: list al files to the current directory and the parent current directory
 12- file tmp/iamafile : prints the type of the file named iamafile
+13- ln -s /bin/ls ./__ls__ : create a symbolic link to /bin/ls named __ls__
