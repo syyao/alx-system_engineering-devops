@@ -15,4 +15,5 @@ ls -t1 | head -n 10: create a script that displays 10 new lines in the current d
 sort | uniq -u : create a script that takes a list of words as input and prints only words that appear exactly onces
 grep -i "root" /etc/passwd : displays lines containning the partern "root" from the file /etc/passwd
 grep -c -i "bin" /etc/passwd: displays the number of lines that contain the patern bin in the file /etc/passwd
-grep -i "root" -A /etc/passwd : displays line containing the patern "root" and lines and three lines after them 
+grep -i "root" -A /etc/passwd : displays line containing the patern "root" and lines and three lines after them
+grep -i -v "bin" /etc/passwd:dsplay all lines in the files /etc/passwd that not conteet the patern "bin"  
