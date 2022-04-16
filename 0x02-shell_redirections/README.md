@@ -21,4 +21,5 @@ grep -i "^[a-z]" /etc/ssh/sshd_config: displays all lines of the sshd_configstar
 tr "A" "Z" | tr "c" "e": replace all characters A and Z by c and e respectively
 tr -d "cC" : creates a scripts that remove all letters c and C
 rev: reverse the input
-cut -d ':' -f 1,6 /etc/passwd | sort : displays all users and their homedirectories, sorted by users 
+cut -d ':' -f 1,6 /etc/passwd | sort : displays all users and their homedirectories, sorted by users
+find . -empty | rev | cut -d '/' -f 1 | rev : find all empty files and directories in the current directory an sub_directories 
