@@ -18,4 +18,6 @@ grep -c -i "bin" /etc/passwd: displays the number of lines that contain the pate
 grep -i "root" -A /etc/passwd : displays line containing the patern "root" and lines and three lines after them
 grep -i -v "bin" /etc/passwd:dsplay all lines in the files /etc/passwd that not conteet the patern "bin"
 grep -i "^[a-z]" /etc/ssh/sshd_config: displays all lines of the sshd_configstarting with a letter
-tr "A" "Z" | tr "c" "e": replace all characters A and Z by c and e respectively   
+tr "A" "Z" | tr "c" "e": replace all characters A and Z by c and e respectively
+tr -d "cC" : creates a scripts that remove all letters c and C
+   
