@@ -14,3 +14,4 @@ fing . -type d -not -name '.' | wc -l : count the numbre of directories and subi
 ls -t1 | head -n 10: create a script that displays 10 new lines in the current directory
 sort | uniq -u : create a script that takes a list of words as input and prints only words that appear exactly onces
 grep -i "root" /etc/passwd : displays lines containning the partern "root" from the file /etc/passwd
+grep -c -i "bin" /etc/passwd: displays the number of lines that contain the patern bin in the file /etc/passwd
