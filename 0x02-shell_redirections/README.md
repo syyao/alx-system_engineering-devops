@@ -12,3 +12,5 @@ tail -n 1 iacta >> iacta : duplicate the last line of the file iacta
 find . -type f -name "*.js" -delete : delete all the regular with th .js extention in the current directory
 fing . -type d -not -name '.' | wc -l : count the numbre of directories and subirectories in the current directory 
 ls -t1 | head -n 10: create a script that displays 10 new lines in the current directory
+sort | uniq -u : create a script that takes a list of words as input and prints only words that appear exactly onces
+
