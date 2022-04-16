@@ -5,3 +5,4 @@ cat /tc/passwd : displaythe content ont the etc/passwd
 cat /etc/passwd /etc/hosts: display the content to the etc/paswwd and etc/hosts
 tail -n 10 /etc/passwd : display the last 10 lines to the /etc/passwd
 head -n 10 /etc/passwd : display the first 10 lines to the /etc/passwd
+head -n 3 iacta | tail -n 1 : display the third line of the file iacta
