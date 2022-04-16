@@ -16,3 +16,4 @@ mkdir my_dir -m=751 : create a directory named my_dir with the 751 permissions
 chgrp school hello : change group owner to  school for the file hello 
 chown vincent:staff *: change the owner vincent to the group owner staff
 chown -h vincent:staff _hello : chnges the owner and the groups of _hello to vincent and staff respectively
+chown --from=guillaume betty hello : change the owner to the file hello to betty only if the it is owned by user guillaume 
