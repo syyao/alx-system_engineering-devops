@@ -1,3 +1,4 @@
 # shell redirection 
 echo "Hello, World" : prints hello world
-ehco "\"(Ôo)'" : display  a confused smiley 
+echo "\"(Ôo)'" : display  a confused smiley
+cat /tc/passwd : displaythe content ont the etc/passwd 
