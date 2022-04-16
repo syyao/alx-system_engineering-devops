@@ -20,4 +20,5 @@ grep -i -v "bin" /etc/passwd:dsplay all lines in the files /etc/passwd that not 
 grep -i "^[a-z]" /etc/ssh/sshd_config: displays all lines of the sshd_configstarting with a letter
 tr "A" "Z" | tr "c" "e": replace all characters A and Z by c and e respectively
 tr -d "cC" : creates a scripts that remove all letters c and C
+rev: reverse the input
    
