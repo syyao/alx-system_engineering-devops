@@ -11,3 +11,4 @@ echo ${(TRUEKNOWLEDGE+128)}: resultat of addition of 128 with a value stored
 echo $(($POWER/$DIVIDE)) : resutat of POWER divide by DIVIDE 
 echo $(($BREATH**LOVE)) : resultat of BREATH exponent LOVE 
 echo  $((2#$BINARY)) : convert number from base 2 to 10
+echo {a..z}{a..z} | tr ' ' '\n | grep -v oo : create a script that prints all possible combinations of the letters excepted oo 
