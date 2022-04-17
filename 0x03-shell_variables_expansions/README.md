@@ -7,4 +7,5 @@ printenv : list environnement variables
 set | less : list all local variables and environnment variables and functions 
 BEST:School : creata a local variable environnment
 export Best:School create a global variable 
-echo ${(TRUEKNOWLEDGE+128)}: resultat of addition of 128 with a value stored  
+echo ${(TRUEKNOWLEDGE+128)}: resultat of addition of 128 with a value stored
+echo $(($POWER/$DIVIDE)) : resutat of POWER divide by DIVIDE  
